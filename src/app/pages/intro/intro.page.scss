@@ -1,0 +1,18 @@
+ion-content {
+    --ion-background-color: url(/assets/img/fondo.jpg);
+}//diseño del fondo de la intro de bienvenida
+
+.d-flex-center{
+    height: 90vh;
+}
+
+.glass-content{
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+width: 100%;
+min-height: 100vh;
+}//difuminado del fondo de bienvenida
